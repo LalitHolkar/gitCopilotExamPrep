@@ -1,0 +1,42 @@
+{
+  "csharp": [
+    { "id": 1, "text": "What is C#?", "answer": "C# is a modern, object-oriented programming language developed by Microsoft for building a variety of applications on the .NET platform." },
+    { "id": 2, "text": "What is the difference between value type and reference type in C#?", "answer": "Value types store data directly, while reference types store a reference to the data. Value types are stored on the stack, reference types on the heap." },
+    { "id": 3, "text": "Explain the concept of inheritance in C#.", "answer": "Inheritance allows a class to inherit members (fields, methods, properties) from another class, promoting code reuse." },
+    { "id": 4, "text": "What is a delegate in C#?", "answer": "A delegate is a type that represents references to methods with a particular parameter list and return type. Delegates are used for event handling and callbacks." },
+    { "id": 5, "text": "What is LINQ in C#?", "answer": "LINQ (Language Integrated Query) is a set of features that allows querying collections in a declarative way using C# syntax." },
+    { "id": 6, "text": "What is the difference between an abstract class and an interface in C#?", "answer": "An abstract class can have implementations for some members, while an interface can only have declarations. A class can implement multiple interfaces but inherit only one abstract class." },
+    { "id": 7, "text": "What is the purpose of the 'using' statement in C#?", "answer": "The 'using' statement ensures that IDisposable objects are disposed of properly, releasing resources automatically." },
+    { "id": 8, "text": "What is async/await in C#?", "answer": "async/await are keywords used for asynchronous programming, allowing non-blocking operations and better responsiveness." },
+    { "id": 9, "text": "What is encapsulation in C#?", "answer": "Encapsulation is the concept of restricting access to certain details of an object and only exposing necessary parts through public members." },
+    { "id": 10, "text": "How do you handle exceptions in C#?", "answer": "Exceptions are handled using try, catch, finally blocks. The catch block handles errors, and finally executes code regardless of exceptions." }
+  ],
+  "java": [
+    { "id": 1, "text": "What is Java?", "answer": "Java is a high-level, class-based, object-oriented programming language designed to have as few implementation dependencies as possible." },
+    { "id": 2, "text": "Explain the concept of inheritance in Java.", "answer": "Inheritance in Java allows one class to inherit the fields and methods of another class." },
+    { "id": 3, "text": "What is the JVM?", "answer": "JVM stands for Java Virtual Machine, which executes Java bytecode and enables platform independence." },
+    { "id": 4, "text": "What is a constructor in Java?", "answer": "A constructor is a special method used to initialize objects in Java." },
+    { "id": 5, "text": "What is the difference between abstract class and interface in Java?", "answer": "Abstract classes can have method implementations, interfaces cannot (until Java 8 default methods). A class can implement multiple interfaces but only extend one abstract class." }
+  ],
+  "react": [
+    { "id": 1, "text": "What is React?", "answer": "React is a JavaScript library for building user interfaces, maintained by Facebook." },
+    { "id": 2, "text": "What is a component in React?", "answer": "A component is a reusable piece of UI in React." },
+    { "id": 3, "text": "What is JSX?", "answer": "JSX is a syntax extension for JavaScript that looks similar to XML or HTML and is used with React to describe UI elements." },
+    { "id": 4, "text": "What is the useState hook?", "answer": "useState is a React hook that lets you add state to functional components." },
+    { "id": 5, "text": "What is the virtual DOM?", "answer": "The virtual DOM is a lightweight copy of the real DOM that React uses to optimize UI updates." }
+  ],
+  "angular": [
+    { "id": 1, "text": "What is Angular?", "answer": "Angular is a platform and framework for building single-page client applications using HTML and TypeScript." },
+    { "id": 2, "text": "What is a component in Angular?", "answer": "A component controls a patch of screen called a view and is the basic building block of Angular applications." },
+    { "id": 3, "text": "What is data binding in Angular?", "answer": "Data binding is the mechanism for coordinating parts of a template with parts of a component." },
+    { "id": 4, "text": "What is a service in Angular?", "answer": "A service is a class with a focused purpose, used for features like data access, business logic, or reusable code." },
+    { "id": 5, "text": "What is dependency injection in Angular?", "answer": "Dependency injection is a design pattern used to supply a component with its dependencies." }
+  ],
+  "sql": [
+    { "id": 1, "text": "What is SQL?", "answer": "SQL stands for Structured Query Language and is used to manage and manipulate relational databases." },
+    { "id": 2, "text": "What is a JOIN in SQL?", "answer": "A JOIN clause is used to combine rows from two or more tables based on a related column between them." },
+    { "id": 3, "text": "What is normalization?", "answer": "Normalization is the process of organizing data to reduce redundancy and improve data integrity." },
+    { "id": 4, "text": "What is a primary key?", "answer": "A primary key is a unique identifier for a record in a table." },
+    { "id": 5, "text": "What is an index in SQL?", "answer": "An index is a database object that improves the speed of data retrieval operations on a table." }
+  ]
+}
